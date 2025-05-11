@@ -29,6 +29,6 @@ int main(void)
     root->right->left = binary_tree_node(root->right, 256);
     root->right->right = binary_tree_node(root->right, 512);
 
-    binary_tree_preorder(root, &print_num);
+    binary_tree_inorder(root, &print_num);
     return (0);
 }
